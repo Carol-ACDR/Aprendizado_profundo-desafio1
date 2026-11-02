@@ -110,13 +110,6 @@ resultados/
 
 O CSV contém a matriz de confusão obtida no conjunto de teste.
 
-## Possíveis melhorias
-
-- escolher o limiar de classificação usando a função de custo na validação, em vez de manter `0,5` fixo;
-- salvar o modelo, o imputador e o normalizador treinados;
-- gerar gráficos da matriz de confusão e da curva precision-recall;
-- comparar a rede neural com modelos de árvore e boosting;
-- registrar as métricas em um arquivo CSV para facilitar a reprodução dos experimentos.
 
 ## Tecnologias
 
